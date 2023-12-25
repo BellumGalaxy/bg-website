@@ -2,8 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="navbar absolute py-4 justify-center">
-      <div className="">
+    <div className="navbar absolute py-4 justify-end pr-20">
         <Link href="/">
           <img
             src="./logo/logo.svg"
@@ -15,7 +14,7 @@ const Navbar = () => {
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-10 w-10 text-colorLogo"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -30,7 +29,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-colorLogo rounded-box w-52"
           >
             <li>
               <Link href="/atividades">Atividades</Link>
@@ -43,9 +42,8 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-2xl text-base-100">
+        <ul className="menu menu-horizontal px-1 text-2xl text-colorLogo">
           <li>
             <Link href="/atividades">Atividades</Link>
           </li>
