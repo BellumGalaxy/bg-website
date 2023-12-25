@@ -16,6 +16,7 @@ module.exports = {
       primary500: "#194659",
       bgvertical: "#E54A64",
       colorLogo: "#DBCFB4",
+      bgcolor: "#194659",
     },
     fontFamily: {
       oxanium: ["Oxanium", "Oxanium"],
