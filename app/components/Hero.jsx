@@ -26,15 +26,14 @@ const Hero = () => {
     <div
       className="hero min-h-screen grid justify-between"
       style={{
-        backgroundImage: "url(./imagens/homePageImg.png)",
+        backgroundImage:
+          "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #40366E 95%, #194659 100%), url(./imagens/homePageImg.png)",
       }}
     >
       <div className="text-left text-neutral-content pl-20">
         <div className="flex items-center">
           <MdKeyboardDoubleArrowRight className="text-7xl font-bold text-bgvertical" />
-          <h1 className="mb-5 text-6xl font-bold">
-            Olá, desbravador!
-          </h1>
+          <h1 className="mb-5 text-6xl font-bold">Olá, desbravador!</h1>
         </div>
         <p className="max-w-3xl mb-5 ml-20 text-6xl font-bold text-bgvertical">
           Você está pronto para uma nova jornada?

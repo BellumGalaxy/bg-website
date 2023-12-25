@@ -18,10 +18,18 @@ module.exports = {
       colorLogo: "#DBCFB4",
       bgcolor: "#194659",
     },
-    fontFamily: {
-      oxanium: ["Oxanium", "Oxanium"],
+    extend: {
+      width: {
+        desktop: "1512px",
+        tablet: "834px",
+        mobile: "430px",
+      },
+      height: {
+        desktop: "982px",
+        tablet: "1194px",
+        mobile: "932px",
+      },
     },
-    extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };

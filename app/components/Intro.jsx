@@ -4,16 +4,14 @@ const Intro = () => {
   return (
     <div className="flex flex-col-2  bg-bgcolor">
       <div
-        className="hero min-h-screen "
+        className="hero h-tablet"
         style={{
           backgroundImage: "url(/intro/mask-logo.png)",
         }}
       ></div>
       <div className="hero-content text-colorLogo justify-start">
         <div className="w-9/12 text-left">
-          <h1 className="mb-5 text-6xl font-bold">
-            Bellum Galaxy
-          </h1>
+          <h1 className="mb-5 text-6xl font-bold">Bellum Galaxy</h1>
           <p className="mb-5 text-3xl">
             Na Bellum Galaxy, unimos as estrelas da ciência e da tecnologia para
             forjar o futuro.

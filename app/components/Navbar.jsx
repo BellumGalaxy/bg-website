@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="navbar absolute py-4 justify-end pr-20">
+    <div className="navbar absolute py-4 justify-center pr-20">
         <Link href="/">
           <img
             src="./logo/logo.svg"
