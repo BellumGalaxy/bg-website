@@ -21,7 +21,7 @@ const Intro = () => {
             transformando aspirações em realizações estelares.
           </p>
           <div className="grid grid-cols-2">
-            <ul className="text-1xl font-bold">
+            <ul className="text-1xl font-bold space-y-2">
               <li className="flex items-center">
                 <PiPlanetBold className="text-bgvertical w-6 h-6 mr-2" />
                 <span>Participe das Atividades.</span>

@@ -9,7 +9,7 @@ const IntroInfo = () => {
       className="hero min-h-screen grid justify-between pl-20"
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #40366E 95%, #194659 100%), url(./intro/intro-info.png)",
+          "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #40366E 95%, #194659 100%), url(./intro/intro-info.png)",
       }}
     >
       <div className="text-left text-neutral-content pl-20">
