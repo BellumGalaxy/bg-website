@@ -16,8 +16,7 @@ const Pilares = () => {
     <div
       className="hero min-h-screen flex flex-col justify-start"
       style={{
-        backgroundImage:
-          "url(./intro/sobre-pilares.jpg)",
+        backgroundImage: "url(./intro/sobre-pilares.jpg)",
       }}
     >
       <div className="flex text-center mt-32 mb-16">
