@@ -6,7 +6,7 @@ const Intro = () => {
       <div
         className="hero h-tablet"
         style={{
-          backgroundImage: "url(/intro/mask-logo.png)",
+          backgroundImage: "url(/intro/logo.svg)",
         }}
       ></div>
       <div className="hero-content text-colorLogo justify-start">

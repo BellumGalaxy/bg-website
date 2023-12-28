@@ -11,11 +11,15 @@ const parceiros = [
 
 const Parceiros = () => {
   return (
-    <div className="hero min-h-screen flex flex-col justify-start bg-bgcolor">
+    <div
+      className="hero min-h-screen flex flex-col justify-start bg-bgcolor"
+      style={{
+        backgroundImage:
+          "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #194659 100%), url(./imagens/parceiros.jpg)",
+      }}
+    >
       <div className="flex text-center mt-32">
-        <span
-          className="text-[100px] font-bold text-bgvertical"
-        >
+        <span className="text-[100px] font-bold text-bgvertical">
           PARCEIROS
         </span>
       </div>
