@@ -6,7 +6,8 @@ const Intro = () => {
       <div
         className="hero h-tablet"
         style={{
-          backgroundImage: "url(/intro/logo.svg)",
+          backgroundImage:
+            "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, #194659 100%),linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, #194659 100%),  url(/intro/logo.svg)",
         }}
       ></div>
       <div className="hero-content text-colorLogo justify-start">

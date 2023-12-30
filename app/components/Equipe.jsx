@@ -33,10 +33,10 @@ const Equipe = () => {
   return (
     <div className="flex bg-bgcolor min-h-screen  overflow-hidden">
       <div
-        className="absolute left-[10] h-full w-1/2 bg-no-repeat bg-contain bg-center z-0"
+        className="absolute w-full h-full bg-no-repeat bg-contain bg-center z-0"
         style={{
           backgroundImage:
-            "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #194659 100%),linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #194659 100%),  url(/intro/logo.svg)",
+            "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #194659 100%),linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, #194659 100%),  url(/intro/logo.svg)",
           backgroundPosition: "left -100px center",
         }}
       ></div>
