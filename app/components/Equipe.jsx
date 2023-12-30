@@ -23,7 +23,7 @@ const equipe = [
     img: "./equipe/SubZero.png",
     nome: "SubZero",
     Profissão: "Moderador",
-    x: "https://x.com/renatocec1921",
+    x: "https://twitter.com/subzerogz",
     GitHub: "",
     Linkedin: "",
   },
