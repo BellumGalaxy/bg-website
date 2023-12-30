@@ -17,6 +17,7 @@ module.exports = {
       bgvertical: "#E54A64",
       colorLogo: "#DBCFB4",
       bgcolor: "#194659",
+      white: "#FFFFFF",
     },
     extend: {
       width: {
