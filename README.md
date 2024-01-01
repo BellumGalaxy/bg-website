@@ -8,9 +8,11 @@ Here you can check how we structure the application and the pure content.
 You can check out the Application on the provisional address [here](bellumgalaxy.netlify.com).
 
 # Version
-## v0.1.
+## v0.1
 In this version we have only homepage and about page. It's available only for desktop access. If you access with a mobile device, the page will not display correctly.
 Responsiveness wil be added in v0.2.
+## v0.2
+In this version, we updated the layout to be responsive. Now the website can be accessed on any device correctly.
 
 # Tools
 ## v0.1
