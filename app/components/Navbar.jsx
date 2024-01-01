@@ -2,15 +2,15 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="navbar absolute py-4 pr-20 w-full">
+    <div className="navbar absolute py-4 px-5 md:px-20 w-full">
       <Link href="/">
         <img
           src="./logo/logo.svg"
           alt="bg-logo"
-          className="top-5 left-20 absolute w-20 h-20"
+          className="top-4 absolute w-20 h-20"
         />
       </Link>
-      <div className="dropdown absolute right-28 mt-10">
+      <div className="dropdown absolute right-5 md:right-28 mt-10">
         <div tabIndex={0} role="button" className="btn btn-ghost">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
         <ul
           tabIndex={0}
-          className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-colorLogo rounded-box w-24"
+          className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-colorLogo rounded-box w-fit bg-bgvertical bg-opacity-50"
         >
           {/* <li>
             <Link href="/atividades">Atividades</Link>
