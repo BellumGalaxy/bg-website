@@ -32,16 +32,16 @@ const Hero = () => {
     >
       <div className="text-left text-neutral-content pl-4 md:pl-8 lg:pl-20">
         <div className="flex items-center">
-          <MdKeyboardDoubleArrowRight className="text-4xl md:5xl lg:text-7xl font-bold text-bgvertical" />
-          <h1 className="text-4xl md:5xl lg:text-6xl mb-5 font-bold">
+          <MdKeyboardDoubleArrowRight className="text-4xl md:text-6xl lg:text-7xl font-bold text-bgvertical" />
+          <h1 className="text-4xl md:text-6xl mb-5 font-bold text-colorLogo">
             Olá, desbravador!
           </h1>
         </div>
-        <p className="max-w-3xl sm:ml-10 text-4xl md:ml-15 md:5xl lg:ml-20 lg:text-6xl mb-5 font-bold text-bgvertical">
+        <p className="max-w-xl sm:ml-10 text-4xl md:ml-16 md:text-5xl lg:ml-20 lg:text-6xl mb-5 font-bold text-bgvertical">
           Você está pronto para uma nova jornada?
         </p>
 
-        <p className="sm:max-w-md sm:ml-10 text-md md:max-w-lg md:ml-15 md:text-3xl lg:max-w-xl lg:ml-20 mb-5 font-bold">
+        <p className="sm:max-w-md sm:ml-10 text-md md:max-w-xl md:ml-16 md:text-2xl lg:max-w-xl lg:ml-20 mb-5 text-colorLogo">
           Junte-se a nós e embarque em uma busca incansável pelo conhecimento!
         </p>
       </div>
