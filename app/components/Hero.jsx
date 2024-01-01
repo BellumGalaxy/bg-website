@@ -30,16 +30,18 @@ const Hero = () => {
           "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #40366E 95%, #194659 100%), url(./imagens/homePageImg.png)",
       }}
     >
-      <div className="text-left text-neutral-content pl-20">
+      <div className="text-left text-neutral-content pl-4 md:pl-8 lg:pl-20">
         <div className="flex items-center">
-          <MdKeyboardDoubleArrowRight className="text-7xl font-bold text-bgvertical" />
-          <h1 className="mb-5 text-6xl font-bold">Olá, desbravador!</h1>
+          <MdKeyboardDoubleArrowRight className="text-4xl md:5xl lg:text-7xl font-bold text-bgvertical" />
+          <h1 className="text-4xl md:5xl lg:text-6xl mb-5 font-bold">
+            Olá, desbravador!
+          </h1>
         </div>
-        <p className="max-w-3xl mb-5 ml-20 text-6xl font-bold text-bgvertical">
+        <p className="max-w-3xl sm:ml-10 text-4xl md:ml-15 md:5xl lg:ml-20 lg:text-6xl mb-5 font-bold text-bgvertical">
           Você está pronto para uma nova jornada?
         </p>
 
-        <p className="max-w-xl mb-5  ml-20 text-3xl font-bold">
+        <p className="sm:max-w-md sm:ml-10 text-md md:max-w-lg md:ml-15 md:text-3xl lg:max-w-xl lg:ml-20 mb-5 font-bold">
           Junte-se a nós e embarque em uma busca incansável pelo conhecimento!
         </p>
       </div>
@@ -54,7 +56,7 @@ const Hero = () => {
             <img
               src={network.img}
               alt={network.url}
-              className="h-14 w-14 opacity-30 hover:opacity-100 transition-opacity duration-300"
+              className="h-8 w-8 md:h-14 md:w-14 opacity-30 hover:opacity-100 transition-opacity duration-300"
             />
           </a>
         ))}
