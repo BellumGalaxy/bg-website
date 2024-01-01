@@ -48,30 +48,30 @@ const Pilares = () => {
           "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #194659 100%), url(./intro/sobre-pilares.jpg)",
       }}
     >
-      <div className="flex text-center mt-32 mb-16">
-        <MdKeyboardDoubleArrowRight className="text-7xl font-bold text-colorLogo ml-4" />
-        <span className="text-6xl font-bold text-bgvertical">
+      <div className="flex text-center mt-48 md:mt-40 mb-8 md:mb-16">
+        <MdKeyboardDoubleArrowRight className="text-6xl md:text-7xl font-bold text-colorLogo ml-4" />
+        <span className="text-5xl md:text-6xl max-w-md font-bold text-bgvertical">
           Os Pilares da Nossa Criação
         </span>
       </div>
       <div className="flex items-center justify-center">
         <BiSolidLeftArrow
-          className="text-colorLogo text-4xl mr-2"
+          className="text-colorLogo text-2xl md:text-4xl mr-0 md:mr-2"
           onClick={goToPrevious}
         />
-        <div className="carousel carousel-center max-w-lg p-4 space-x-4 bg-neutral rounded-box opacity-80">
+        <div className="carousel carousel-center max-w-sm md:max-w-lg md:p-4 space-x-4 bg-neutral rounded-box opacity-80">
           {carrossel.map((item, index) => (
             <div key={index} className="carousel-item">
               <img
                 src={item.img}
-                className="w-full"
+                className="max-w-sm md:max-w-lg p-2 md:p-0"
                 alt={`Imagem ${index + 1}`}
               />
             </div>
           ))}
         </div>
         <BiSolidRightArrow
-          className="text-colorLogo text-4xl ml-2"
+          className="text-colorLogo text-2xl md:text-4xl mr-0 md:ml-2"
           onClick={goToNext}
         />
       </div>
