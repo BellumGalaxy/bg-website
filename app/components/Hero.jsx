@@ -27,7 +27,7 @@ const Hero = () => {
       className="hero min-h-screen grid justify-between"
       style={{
         backgroundImage:
-          "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #40366E 95%, #194659 100%), url(./imagens/homePageImg.png)",
+          "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #40366E 95%, #194659 100%), url(./imagens/hero.png)",
       }}
     >
       <div className="text-left text-neutral-content pl-4 md:pl-8 lg:pl-20">

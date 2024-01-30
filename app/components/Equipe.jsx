@@ -43,7 +43,7 @@ const Equipe = () => {
       <div className="relative z-10 flex-1 flex flex-col justify-center items-center">
         {/* TÍTULO */}
         <div className="text-center mb-16">
-          <MdKeyboardDoubleArrowRight className="text-7xl font-bold text-colorLogo inline-block" />
+          {/* <MdKeyboardDoubleArrowRight className="text-7xl font-bold text-colorLogo inline-block" /> */}
 
           <span className="text-6xl font-bold text-bgvertical">Equipe </span>
           <span className="text-6xl font-bold text-colorLogo">BG</span>

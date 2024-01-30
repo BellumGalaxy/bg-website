@@ -48,9 +48,9 @@ const Pilares = () => {
           "linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, #194659 100%), url(./intro/sobre-pilares.jpg)",
       }}
     >
-      <div className="flex text-center mt-48 md:mt-40 mb-8 md:mb-16">
-        <MdKeyboardDoubleArrowRight className="text-6xl md:text-7xl font-bold text-colorLogo ml-4" />
-        <span className="text-5xl md:text-6xl max-w-md font-bold text-bgvertical">
+      <div className="flex text-center mt-48 md:mt-20 mb-8 md:mb-4">
+        {/* <MdKeyboardDoubleArrowRight className="text-5xl md:text-6xl font-bold text-colorLogo ml-4" /> */}
+        <span className="text-5xl md:text-5xl max-w-md font-bold text-bgvertical">
           Os Pilares da Nossa Criação
         </span>
       </div>

@@ -1,12 +1,12 @@
 const parceiros = [
-  { img: "./parceiros/parceiro1.png" },
-  { img: "./parceiros/parceiro2.png" },
-  { img: "./parceiros/parceiro3.png" },
-  { img: "./parceiros/parceiro4.png" },
-  { img: "./parceiros/parceiro5.png" },
-  { img: "./parceiros/parceiro6.png" },
-  { img: "./parceiros/parceiro7.png" },
-  { img: "./parceiros/parceiro8.png" },
+  { img: "./parceiros/logo.svg" },
+  { img: "./parceiros/seja-parceiro.png" },
+  { img: "./parceiros/jornada.png" },
+  { img: "./parceiros/logo.svg" },
+  // { img: "./parceiros/jornada.png" },
+  // { img: "./parceiros/parceiro6.png" },
+  // { img: "./parceiros/parceiro7.png" },
+  // { img: "./parceiros/seja-parceiro.png" },
 ];
 
 const Parceiros = () => {
