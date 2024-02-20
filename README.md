@@ -5,7 +5,7 @@ Welcome to Bellum Galaxy website repository.
 
 Here you can check how we structure the application and the pure content.
 
-You can check out the Application on the provisional address [here](bellumgalaxy.netlify.com).
+You can check out the Application on the provisional address [here](https://bellumgalaxy.com).
 
 # Version
 ## v0.1
