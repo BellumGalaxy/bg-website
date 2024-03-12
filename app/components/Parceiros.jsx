@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 const parceiros = [
-  { img: "./parceiros/logo.svg" },
-  { img: "./parceiros/seja-parceiro.png" },
-  { img: "./parceiros/jornada.png" },
-  { img: "./parceiros/logo.svg" },
-  // { img: "./parceiros/jornada.png" },
-  // { img: "./parceiros/parceiro6.png" },
+  { img: "./parceiros/Web3Dev.jpg", site: "https://pt.w3d.community" },
+  { img: "./parceiros/RecycleMinds.jpg", site: "https://www.recycleminds.xyz" },
+  { img: "./parceiros/iBeed.png", site: "https://ibeed.xyz/" },
+  { img: "./parceiros/seja-parceiro.png", site: "https://discord.gg/H2UpdzbbRJ"  },
+  { img: "./parceiros/logo.svg", site: "www.bellumgalaxy.com"  },
+  { img: "./parceiros/jornada.png", site: "https://discord.gg/H2UpdzbbRJ"  },
   // { img: "./parceiros/parceiro7.png" },
   // { img: "./parceiros/seja-parceiro.png" },
 ];
@@ -29,11 +31,13 @@ const Parceiros = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 mt-6">
           {parceiros.map((parceiro, index) => (
             <div key={index} className="flex justify-center">
+              <Link href={parceiro.site}>
               <img
                 src={parceiro.img}
                 alt={`Parceiro ${index + 1}`}
                 className="object-contain h-48 w-48"
-              />
+                />
+              </Link>
             </div>
           ))}
         </div>

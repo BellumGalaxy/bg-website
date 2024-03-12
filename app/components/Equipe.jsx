@@ -6,7 +6,7 @@ const equipe = [
   {
     img: "./equipe/barba.png",
     nome: "Barba",
-    Profissão: "Desenvolvedor Solidity",
+    Profissão: "Desenvolvedor & Auditor Solidity",
     x: "https://x.com/i3arba",
     GitHub: "https://github.com/i3arba",
     Linkedin: "https://in.com/carneiro-patrick77",
