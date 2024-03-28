@@ -5,7 +5,13 @@ Welcome to the Bellum Galaxy website repository.
 
 Here you can check how we structure the application and the pure content.
 
-You can check out the Application on the provisional address [here](https://bellumgalaxy.com).
+You can check out the Application [here](https://bellumgalaxy.com).
+
+# Functionality
+## Current Version - 0.2
+In this version, the website is for information purposes only. You can access our social media through links, get more information about our team, and learn about our project.
+
+NOTE: Our focus is on the Brazilian community, so the website was developed in Portuguese.
 
 # Version
 ## v0.1
@@ -20,9 +26,3 @@ In this version, we updated the layout to be responsive. Now the website can be 
 - Netlify
 - TailwindCSS
 - DaisyUI
-
-# Functionality
-## v0.1
-In this version, the website is for information purposes only. You can access our social media through links, get more information about our team, and learn about our project.
-
-NOTE: Our focus is on the Brazilian community, so the website was developed in Portuguese.
